@@ -1,0 +1,27 @@
+{
+    "generated_at": "2026-08-13 00:38:01",
+    "train_period": "Jan 2022 - Sep 2023",
+    "test_period": "Oct 2023 - Mar 2024",
+    "n_train_rows": 62385,
+    "n_test_rows": 18315,
+    "model_a": {
+        "algorithm": "XGBoost Classifier",
+        "target": "stockout_in_48hrs",
+        "precision": 0.2757,
+        "recall": 0.7573,
+        "f1_score": 0.4042,
+        "baseline_precision": 0.1558,
+        "baseline_recall": 0.7731,
+        "baseline_f1": 0.2593
+    },
+    "model_b": {
+        "algorithm": "XGBoost Regressor",
+        "target": "reorder_point",
+        "rmse": 2.0837,
+        "mae": 1.1547,
+        "r2_score": 0.998,
+        "baseline_rmse": 0.4977,
+        "baseline_mae": 0.2477,
+        "baseline_r2": 0.9999
+    }
+}
