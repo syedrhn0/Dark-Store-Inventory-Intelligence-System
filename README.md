@@ -1,7 +1,7 @@
 # Dark Store Inventory Intelligence System
 ### Stockout Prediction + Dynamic Reorder Point
 
-🚀 **Live Demo:** [dark-store-inventory-intelligence.streamlit.app]([your-link-here](https://dark-store-inventory-intelligence-system.streamlit.app/))
+🚀 **Live Demo:** [dark-store-inventory-intelligence.streamlit.app](https://dark-store-inventory-intelligence-system.streamlit.app)
 
 An end-to-end machine learning project that predicts whether a dark store SKU will go out of stock within the next 48 hours and recommends a reorder point when risk is high. Built in the context of quick-commerce platforms like Blinkit and Zepto.
 
