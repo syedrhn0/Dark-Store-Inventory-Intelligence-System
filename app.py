@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 BASE_DIR     = os.path.dirname(__file__)
 MODELS_DIR   = os.path.join(BASE_DIR, "models")
 METRICS_DIR  = os.path.join(BASE_DIR, "metrics")
-DATA_PATH    = os.path.join(BASE_DIR, "Data", "dark_store_inventory_raw.csv")
+DATA_PATH    = os.path.join(BASE_DIR, "data", "dark_store_inventory_raw.csv")
 
 # ── STORE AND SKU METADATA ────────────────────────────────────────
 STORE_META = {
